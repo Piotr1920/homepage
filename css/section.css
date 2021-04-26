@@ -1,0 +1,8 @@
+.section {
+    margin: 5px;
+    padding: 5px;
+}
+
+.section__heading {
+    text-shadow: black 5px 7px 10px;
+}

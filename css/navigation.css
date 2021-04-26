@@ -1,0 +1,18 @@
+.navigation {
+    border: #9c9c9c 15px solid;
+    border-radius: 32% 31%;
+    text-align: center;
+    margin: 20px;
+}
+
+.navigation__list {
+    padding: 5px;
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navigation__item {
+    color: black;
+    padding: 20px;
+}
