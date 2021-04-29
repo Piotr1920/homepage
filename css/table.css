@@ -21,7 +21,7 @@
   vertical-align: middle;
 }
 
-.table__header {
+.table__cell--header {
   background-color: #474747;
   color: white;
 }
