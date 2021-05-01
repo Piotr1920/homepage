@@ -1,17 +1,30 @@
-console.log(
-  "Witam! Ostatnio widziałem takie autko tzw. Mały Fiat 125p i napis na szybie ROBIM CO MOŻEM :D u mnie trochę wygląda to podobnie :))"
-);
+{
+  const toggleClassButton = document.querySelector(".js-button");
+  const hideImage = document.querySelector(".js-photoHide");
 
-let toggleClassButton = document.querySelector(".js-button");
-let hideImage = document.querySelector(".js-headerImage");
+  const welcome = () => {
+    console.log(
+      "Witam! Ostatnio widziałem takie autko tzw. Mały Fiat 125p i napis na szybie ROBIM CO MOŻEM :D u mnie trochę wygląda to podobnie :))");
+  };
 
-toggleClassButton.addEventListener("click", () => {
-  hideImage.classList.toggle("image--hide");
-  toggleClassButton.innerText = hideImage.classList.contains("image--hide")
-    ? "Pokaż zdjęcie"
-    : "Usuń Zdjęcie";
-});
-  
-  
-  
-  
+  const onHidephotoClick = () => {
+
+    hideImage.classList.toggle("photo--hiden");
+    toggleClassButton.innerText = hideImage.classList.contains("photo--hiden")
+      ? "Pokaż Zdjęcie"
+      : "Usuń Zdjęcie";
+  };
+
+
+
+  const init = () => {
+    toggleClassButton.addEventListener("click", onHidephotoClick);
+
+    welcome();
+  };
+
+  init();
+}
+
+
+
