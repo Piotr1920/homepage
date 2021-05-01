@@ -1,7 +1,7 @@
 # Piotr Poliński 
 
 ## Demo version
-[CLICK HERE](https://piotr1920.github.io/homepage/) 
+[CLICK HERE](https://piotrpolinski.github.io/homepage/) 
 
 
 ## Used technologies :
