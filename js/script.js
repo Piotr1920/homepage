@@ -1,6 +1,6 @@
 {
   const toggleClassButton = document.querySelector(".js-button");
-  const hideImage = document.querySelector(".js-photoHide");
+  const hideImage = document.querySelector(".js-photo");
 
   const welcome = () => {
     console.log(
