@@ -14,7 +14,7 @@ In this project you will find a few words about me, about my hobbies.  Additiona
 
 ### Animation from working page
 
-![homepage](images_and_gifs/homepage_animation.gif)
+![homepage](images/homepage_animation.gif)
 
 ### Contact
 
